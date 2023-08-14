@@ -1,0 +1,87 @@
+{% extends 'main/base.html' %}
+
+{% load static %}
+
+{% block title %}Резюме{% endblock %}
+
+{% block content %}
+<br>
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card card-body border-warning border border-3" id="profile-wrapper">
+                <img id="profile-pic" src="{% static 'main/img/myphoto1.jpg' %}">
+                <hr>
+                <h4>Александр Морозов</h4>
+                <p>Python Developer</p>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="card card-body border-warning border border-3" id="introductory-part">
+                <h4>Уважаемый работодатель</h4>
+                <hr>
+                <p>Я начинающий python разработчик, который стремится к профессиональному росту и готов учиться новым
+                    технологиям и инструментам.</p>
+                <p>Я убежден, что развитие в сфере разработки - это непрерывный процесс, и я готов учиться и
+                    совершенствоваться в своей работе.</p>
+                <hr>
+                <p>
+
+                </p>
+                <ul class="social-links" id="links">
+                    <li><a href="https://t.me/mimimichaello"><img class="social"
+                                src="{% static 'main/img/telega.svg' %}"></a></li>
+                    <li><a href="mailto: sashamorozov97@mail.ru"><img class="social"
+                                src="{% static 'main/img/mail.png' %}"></a></li>
+                    <li><a href=""><img class="social" src="{% static 'main/img/github.svg' %}"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card card-body border-warning border border-3" id="experience">
+                <h5>Опыт разработки на Python</h5>
+                <hr>
+                <p>Я работаю как начинающий разработчик Python и имею опыт создания сайтов с использованием фреймворка
+                    Django.</p>
+                <p>Мой опыт включает разработку и поддержку функциональных веб-приложений на Python с использованием
+                    Django.</p>
+                <p>Я обладаю базовыми навыками в работе с PostgreSQL.</p>
+                <p>Также я ознакомился с Docker и использовал его для контейнеризации моих веб-приложений на Python.
+                    Будучи начинающим разработчиком, я продолжаю расширять свои знания и улучшать свои навыки в области
+                    Python и веб-разработки.</p>
+                <p>Кроме того, я обладаю базовыми навыками в HTML/CSS, которые использую для создания пользовательского
+                    интерфейса в своих проектах.</p>
+                <p>
+
+                </p>
+                <hr>
+
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card card-body border-warning border border-3" id="courses">
+                <h5>Пройденные курсы</h5>
+                <hr>
+                <p>Курс "Основы HTML/CSS - верстка сайтов с нуля", от BeonMax, 2022г.</p>
+                <br>
+                <p>Курс "HTML/CSS", от BeonMax, 2022г.</p>
+                <br>
+                <p>Курс "SQL и PostgreSQL для начинающих", от BeonMax, 2023г.</p>
+                <br>
+                <p>Курс "Python - Полный Курс по Python, Django, Data Science и ML", от Udemy - Bogdan Stanchuk, 2023г.
+                </p>
+                <br>
+                <p>Курс "Начальный курс SQL: от Новичка до Специалиста (+Практика)", от Udemy - Vlad Burmistrov, 2023г.
+                </p>
+                <br>
+                <p>Курс "Web-разработчик", от Udemy - Ivan Petrichenko, 2023г.</p>
+                <hr>
+            </div>
+        </div>
+    </div>
+    <br>
+</div>
+{% endblock content %}

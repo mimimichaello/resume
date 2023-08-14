@@ -1,0 +1,172 @@
+body {
+    background: linear-gradient(#ADA996, #F2F2F2, #DBDBDB, #EAEAEA);
+}
+
+
+aside {
+    float: left;
+    background: linear-gradient(#0f0c29, #302b63, #2C5364, #ADA996);
+    width: 20%;
+    padding: 2, 5%;
+    height: 135vh;
+    color: #fff;
+    /* border-right: 5px solid #acc4cc; */
+}
+
+aside img {
+    width: 120px;
+    float: left;
+}
+
+aside .logo {
+    font-size: 20px;
+    margin-left: 3px;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+}
+
+aside h3 {
+    margin-top: 140px;
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+aside ul {
+    font-size: 20px;
+    list-style: none;
+    margin-left: -10px;
+}
+
+
+aside ul li {
+    color: #a68b5c;
+    display: block;
+    margin-top: 20px;
+    transition: transform .6s ease;
+}
+
+aside a {
+    text-decoration: none;
+}
+
+aside ul li:hover,
+aside ul a:hover {
+    color: #e4ecfc;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+/* main .cv {
+    background-image: url('main/img/fon.jpg');
+    color: #30464f;
+    font-size: 20px;
+
+}
+
+main .cv h1 {
+    color: #052718;
+    margin-bottom: 0.25em;
+}
+
+main .cv h2 {
+    color: #052718;
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+main .cv a {
+    color: #6c561d;
+    text-decoration: none;
+    padding-left: 0.25em;
+}
+
+main .cv a:hover {
+    color: #052718;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+main .cv .contacts {
+    margin-bottom: 2em;
+}
+
+main .cv .contact {
+    display: flex;
+
+    &__type {
+        min-width: 90px;
+    }
+} */
+main .container {
+    padding-left: 315px;
+
+}
+
+#profile-wrapper {
+    background: #ADA996;
+    color: #6e053a;
+    text-align: left;
+}
+
+#profile-pic {
+    width: 170px;
+    height: 170px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#profile-pic:hover {
+    transition: transform .6s ease;
+    transform: scale(1.1);
+}
+
+#introductory-part {
+    background: #ADA996;
+    color: #6e053a;
+}
+
+main ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: -40px;
+    padding-right: 50px;
+}
+
+.social {
+    width: 45px;
+    height: 45px;
+}
+
+.social:hover {
+    transition: transform .6s ease;
+    transform: scale(1.2);
+}
+
+#introductory-part {
+    background: #ADA996;
+    color: #6e053a;
+}
+
+#experience {
+    background: #ADA996;
+    color: #6e053a;
+}
+
+#courses {
+    background: #ADA996;
+    color: #6e053a;
+}
+
+
+#rowrow {
+    background: #ADA996;
+    margin-top: 20px;
+    /* border-radius: 1%; */
+}
+
+.card {
+    background: #ADA996;
+}

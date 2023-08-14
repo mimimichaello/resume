@@ -1,0 +1,12 @@
+{% extends 'main/base.html' %}
+
+{% block title %}Проекты{% endblock title %}
+
+{% block content %}
+<div class="in-development" id="dev">
+    <h1>Страница проектов</h1>
+    <p>К сожалению в данный момент страница проектов находится в разработке!!!</p>
+    <a href="{% url 'resume' %}"><button class="btn btn-warning border border-2 border-dark" id="knopka">Перейти к
+            резюме</button></a>
+</div>
+{% endblock content %}

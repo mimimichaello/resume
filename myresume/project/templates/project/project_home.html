@@ -1,0 +1,42 @@
+{% extends 'main/base.html' %}
+
+{% block title %}Мои Проекты{% endblock title %}
+
+{% block content %}
+<!-- <div class="in-development">
+    <h1 id="tit" class="border-bottom border-4">Проекты</h1>
+    {% for el in project %}
+    <div class="alert alert-secondary">
+        <h3>{{ el.title }}</h3>
+        <p>{{ el.description }}</p>
+        <p><button class="btn btn-primary"><a href="{{ el.url }}"></a>Ссылка на GitHub</button></p>
+    </div>
+    {% endfor %}
+</div> -->
+{% for el in project %}
+<div class="row">
+    <div class="col-sm-6 mb-3 mb-sm-0">
+        <div class="card h-100" id="rowrow">
+            <div
+                class="card card-body border border-3 border-secondary align-items-center justify-content-center h-100">
+                <h5 class="card-title">{{ el.title }}</h5>
+                <hr>
+                <p class="card-text">{{ el.description }}.</p>
+                <a href="{{ el.url }}" class="btn btn-primary">Ссылка на GitHub</a>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="col-sm-6">
+        <div class="card h-100" id="rowrow">
+            <div class="card card-body border border-3 border-secondary align-items-center justify-content-center">
+                <h5 class=" card-title">Особое обращение с заголовком</h5>
+                <hr>
+                <p class="card-text">С вспомогательным текстом ниже в качестве естественного перехода к дополнительному
+                    контенту.</p>
+                <a href="#" class="btn btn-primary">Перейти куда-нибудь</a>
+            </div>
+        </div>
+    </div>
+</div> -->
+    {% endfor %}
+    {% endblock content %}
